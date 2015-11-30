@@ -1468,7 +1468,7 @@ hr {
 }
 .item .item-wrap .overlay {
 	background: #ed560e;
-	position: fixed;
+	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
