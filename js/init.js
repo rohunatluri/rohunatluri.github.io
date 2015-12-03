@@ -90,7 +90,7 @@
 
      var visible = false;
 //     $(window).on('scroll', function() {
-         if ((visible === false) && $("#test").is(":visible")) {
+         if ((visible === false) && getElementById("test").is(":visible")) {
             alert("TRUUUU");
             test.className = "bar-expand python";
              visible = true;
