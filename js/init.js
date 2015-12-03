@@ -79,7 +79,6 @@
             test.className = "bar-expand python";
              visible = true;
          }
-     );
 /*----------------------------------------------------*/
 /*	Fade In/Out Primary Navigation
 ------------------------------------------------------*/
