@@ -335,11 +335,6 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
 .css {
   	width: 90%;
   	-moz-animation: css 2s ease;
@@ -356,10 +351,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 
+/*
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
+*/
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 55%;  }
