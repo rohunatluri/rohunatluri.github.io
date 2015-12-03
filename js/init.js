@@ -73,6 +73,12 @@
    });
 
 
+     $(window).on('scroll', function() {
+         if ($("#test").is(":visible")) {
+            alert("TRUUUU");
+            test.className = "bar-expand python";
+         }
+     });
 /*----------------------------------------------------*/
 /*	Fade In/Out Primary Navigation
 ------------------------------------------------------*/
