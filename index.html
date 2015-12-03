@@ -330,10 +330,9 @@
    <script src="js/init.js"></script>
     
     <script type="text/javascript">
-        var $window = $(window),
-      win_height_padded = $window.height() * 1.1,
-      isTouch = Modernizr.touch;
+        var $window = $(window), win_height_padded = $window.height() * 1.1, isTouch = Modernizr.touch;
        function MyFunction() {
+           alert("entered function");
            if ($("#test").is(":visible")) {
                alert("TRUUUU");
               test.className = "bar-expand python";
