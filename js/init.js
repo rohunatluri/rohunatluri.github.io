@@ -72,13 +72,29 @@
         $('body').css({ 'width': $(window).width() })
    });
 
-//     var visible = false;
-////     $(window).on('scroll', function() {
-//         if (visible === false && $("#test").is(":visible")) {
-//            alert("TRUUUU");
-//            test.className = "bar-expand python";
-//             visible = true;
-//         }
+//    function isScrolledIntoView(elem) {
+//        var $elem = $(elem);
+//        var $window = $(window);
+//
+//        var docViewTop = $window.scrollTop();
+//        var docViewBottom = docViewTop + $window.height();
+//
+//        var elemTop = $elem.offset().top;
+//        var elemBottom = elemTop + $elem.height();
+//
+//        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+//    }
+//     var 
+     
+
+
+     var visible = false;
+//     $(window).on('scroll', function() {
+         if ((visible === false) && $("#test").is(":visible")) {
+            alert("TRUUUU");
+            test.className = "bar-expand python";
+             visible = true;
+         }
 /*----------------------------------------------------*/
 /*	Fade In/Out Primary Navigation
 ------------------------------------------------------*/
