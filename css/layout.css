@@ -360,10 +360,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+
 @-moz-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
