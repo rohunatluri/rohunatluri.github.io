@@ -72,13 +72,13 @@
         $('body').css({ 'width': $(window).width() })
    });
 
-     var visible = false;
-//     $(window).on('scroll', function() {
-         if (visible === false && $("#test").is(":visible")) {
-            alert("TRUUUU");
-            test.className = "bar-expand python";
-             visible = true;
-         }
+//     var visible = false;
+////     $(window).on('scroll', function() {
+//         if (visible === false && $("#test").is(":visible")) {
+//            alert("TRUUUU");
+//            test.className = "bar-expand python";
+//             visible = true;
+//         }
 /*----------------------------------------------------*/
 /*	Fade In/Out Primary Navigation
 ------------------------------------------------------*/
