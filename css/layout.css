@@ -361,15 +361,17 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 55%;  }
 }
 
+/*
 @-moz-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+*/
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -383,15 +385,17 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 55%;  }
 }
 
+/*
 @-webkit-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+*/
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
